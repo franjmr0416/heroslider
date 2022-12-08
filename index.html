@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="js/slider.js"></script>
+    <title>Al Ula</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-content">
+        <nav class="navbar">
+          <div>
+            <a class="logo" href="index.html">Al Ula</a>
+          </div>
+          <div class="menu">
+            <a href="#destinations">Destinations</a>
+            <a href="#">Hotels</a>
+            <a href="#">Flights</a>
+            <a href="#">Bookings</a>
+            <a href="#">Register</a>
+          </div>
+        </nav>
+        <div class="hero-info-box">
+          <div class="hero-info fade-in">
+            <h2>Hegra</h2>
+          </div>
+          <div class="hero-info">
+            <h2>Oasis</h2>
+          </div>
+          <div class="hero-info">
+            <h2>Canyons</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-slide" id="radio1" />
+          <input type="radio" name="radio-slide" id="radio2" />
+          <input type="radio" name="radio-slide" id="radio3" />
+
+          <div class="slide first">
+            <img src="public/img/slide1.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="public/img/slide2.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="public/img/slide3.webp" alt="" />
+          </div>
+
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+    </section>
+    <section id="destinations">
+      <div>
+        <div>info</div>
+        <div>photo</div>
+      </div>
+    </section>
+  </body>
+</html>
